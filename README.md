@@ -14,11 +14,11 @@ curl -i -H "Content-Type: application/json" -X POST -d '{
 curl -i -H "Content-Type: application/json" \
     -X GET localhost:8080/users
 
-# Get one user
+#Get one user
 curl -i -H "Content-Type: application/json" \
     -X GET localhost:8080/users/2
 
-# Change one user
+#Change one user
 curl -i -H "Content-Type: application/json" -X POST -d '{
         "name": "Little Lucy",
         "statement": "I vote for the future!"
