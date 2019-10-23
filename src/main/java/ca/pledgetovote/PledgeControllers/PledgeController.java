@@ -27,4 +27,9 @@ public class PledgeController {
         pledges.add(pledge);
         return pledge;
     }
+    @GetMapping("/pledges")
+    public List<Pledge> getAllPledges(){
+        return pledges;
+    }
+
 }
