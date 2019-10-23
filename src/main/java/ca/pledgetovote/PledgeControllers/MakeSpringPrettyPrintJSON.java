@@ -6,7 +6,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 import java.util.List;
-
+//Easier to read on debug
 @Configuration
 public class MakeSpringPrettyPrintJSON extends WebMvcConfigurationSupport {
     @Override
