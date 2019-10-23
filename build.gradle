@@ -1,4 +1,4 @@
-group 'PledgeToVote'
+group 'Users'
 version '1.0-SNAPSHOT'
 
 buildscript {

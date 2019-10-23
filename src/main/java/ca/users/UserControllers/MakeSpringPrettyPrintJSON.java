@@ -1,4 +1,4 @@
-package ca.pledgetovote.PledgeControllers;
+package ca.users.UserControllers;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;

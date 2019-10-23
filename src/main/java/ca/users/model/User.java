@@ -1,15 +1,15 @@
-package ca.pledgetovote.model;
+package ca.users.model;
 
-public class Pledge {
+public class User {
     private long id;
     private String name;
     private String statement;
 
-    public Pledge() {
+    public User() {
 
     }
 
-    public Pledge(long id, String name, String statement) {
+    public User(long id, String name, String statement) {
         this.id = id;
         this.name = name;
         this.statement = statement;
